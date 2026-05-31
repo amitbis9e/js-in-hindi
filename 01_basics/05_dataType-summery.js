@@ -41,3 +41,31 @@ const classMate = ["ankit" , "rahul" , "jatin"]
 
     /* ------> Return DataType of Null is Object
             And  Return type of function we call ObjectFuction  <----- */
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Memory location 
+// Stack (premative dataTypes)       Heap (non-premative dataTypes)
+  // copy the vaule                     referacne (original value)
+
+  // Stack Memory
+  let age = 22
+  let myAge = age
+  console.log(myAge)
+  
+  myAge = 23
+  console.log(age)
+  console.log(myAge)
+
+  //Heap Memory
+
+  let userRahul = {
+     name: "Rahul",
+     upi : "rahul@ypl"
+  }
+  
+  let userTony = userRahul
+  userTony.name = "Tony"      //changes the orignal value 
+  console.log(userRahul)  
+   
+  // variable referance of heap is stroed in stack
+
