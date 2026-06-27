@@ -1,6 +1,6 @@
 // objects can be declare using two ways--> literal and constructor 
 
-//  singleton --> creation of object using constructor. 
+//  singleton (nextfile) --> creation of object using constructor. 
 // object.create 
 
 // object literal 
