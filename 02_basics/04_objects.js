@@ -67,3 +67,32 @@ console.log(Object.values(tinderUser)); // so can use loops
 console.log(Object.entries(tinderUser)); // array of [key: value]
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+// Object DeStructring>>>>>>>>
+
+const course = {
+    courseName: "js by hitesh",
+    price: "2000",
+    courseInstructor: " hitesh"
+}
+// course.courseInstructor
+
+const {courseInstructor} = course
+const {courseInstructor: inst} = course
+console.log(courseInstructor)
+console.log(inst)
+/* 
+
+{ 
+    "name": "amit",
+    "id": 2214,
+    "mail": "none"
+}
+
+// in array form 
+[
+   {},
+   {},
+   {}
+]
+  */
